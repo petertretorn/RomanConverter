@@ -38,8 +38,9 @@
         addRule(rule);
       });
     }
-    
     function createRule(ruleData) {
+      var newRule = Object.create(abstractRule);
+      
       var props = {
         greaterThanEquals: ruleData[0],
         lessThan: ruleData[1],
@@ -47,9 +48,9 @@
         subtract: ruleData[3]
       };
 
-      _.extend(props, abstractRule);
+      _.extend(newRule, props);
 
-      return props;
+      return newRule;
     }
 
     function getRule(number) {
