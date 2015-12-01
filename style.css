@@ -1,0 +1,50 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin-top: 20px;
+}
+
+.converter-widget {
+  width: 350px;
+  height: 250px;
+  text-align: center;
+  border: solid 1px #efefef;
+  border-radius: 5px;
+  padding: 20px 60px 0px;
+  font-size: 1.2em;
+  background-color: rgba(0,0,0, 0.1);
+}
+
+.converter-widget .heading {
+  font-size: 1.2em;
+}
+
+.converter-widget button, .assertions-section button {
+  margin-top: 20px;
+  font-size: 1.2em;
+}
+
+.converter-widget .input-box {
+  margin-top: 20px;
+  padding: 5px;
+  width: 150px;
+  border-radius: 5px;
+}
+
+.converter-widget .result-section {
+  margin-top: 20px;
+  font-size: 1.2em;
+}
+
+.assertions-section .heading{
+  margin: 40px 0;
+}
+
+.centered {
+  margin: 20px auto;
+  text-align: center;
+}
+
